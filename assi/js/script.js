@@ -54,6 +54,14 @@ function save(){
      var savings = (savingsPercentage/100)*incomeAmount;
      var finalBalance= incomeAmount-(savings+ parseInt(totalExpenses.innerText));
 
-         
+    if(savings>parseInt(balanceAfterExpenses.innerText)){
+        alert('you cant save more');
+    }else if(savingsPercentage<0 || isNaN(savingsPercentage) ){
+        alert("saving % cant be negative or string")
+    }else{
+         savingAmount.innerText= savings;
+         remainingBalance.innerText=finalBalance
+    }
+}       
 
 
