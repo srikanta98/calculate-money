@@ -1,0 +1,54 @@
+/* -------------------------google font ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* --------------------------Common Utilities ---------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------Customization section -------------------------- */
+.margin-top{
+    margin-top: 40px;
+}
+.bold{
+    font-weight: 700;
+}
+
+
+
+.bold-line{
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+.button-style{
+    border-radius: 6px;
+    padding: 7px;
+}
+.position{
+    position: relative;
+    right: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.income{
+    position: relative;
+    left: -64px;
+}
+.button{
+    padding: 26px;
+    background-color: rgb(18, 142, 214);
+    color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
+.bit{
+    padding: 17px;
+    background-color: rgb(18, 142, 214);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.relative{
+    position: relative;
+    left: 153px;
+}
+/* --------------------End---------------------- */
